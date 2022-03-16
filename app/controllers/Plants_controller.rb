@@ -23,6 +23,7 @@ class PlantsController < ApplicationController
             updated_at:     plant.updated_at
          }
         render json: plant_for_succefull_test
+        # render json: plant
     end
 
     def create
